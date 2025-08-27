@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Portfolio </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+Here’s a simple *JavaScript program* that interacts with the user — it takes input and shows a message:
+
+```html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>JavaScript Interaction</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      text-align: center;
+
+      padding: 50px;
+
+    }
+
+    input, button {
+
+      padding: 10px;
+
+      margin: 10px;
+
+      font-size: 16px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Say Hello!</h1>
+
+  <input type="text" id="nameInput" placeholder="Enter your name">
+
+  <button onclick="greetUser()">Submit</button>
+
+  <p id="greeting"></p>
+
+  <script>
+
+    function greetUser() {
+
+      const name = document.getElementById('nameInput').value;
+
+      const greeting = document.getElementById('greeting');
+
+      
+
+      if (name.trim() !== '') {
+
+        greeting.textContent = `Hello, ${name}! Welcome to the page.`;
+
+      } else {
+
+        greeting.textContent = 'Please enter your name.';
+
+      }
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+
+```
+
+Want interaction using buttons, mouse hover, or form validation?
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
