@@ -1,83 +1,59 @@
-Here’s a basic *CSS program* (stylesheet) to style a general webpage:
+<head>
 
-```css
+  <meta charset="UTF-8" />
 
-/* style.css */
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-body {
+  <title>College Student Profile</title>
 
-  background-color: #f4f4f4;
+  <style>
 
-  font-family: Arial, sans-serif;
+    /* 🎨 CSS styling starts here */
 
-  margin: 0;
+    body {
 
-  padding: 0;
+      background: linear-gradient(to right, #d3cce3, #e9e4f0);
 
-}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.container {
+      margin: 0;
 
-  max-width: 900px;
+      padding: 0;
 
-  margin: 30px auto;
+    }
 
-  background-color: #fff;
+    .container {
 
-  padding: 30px;
+      max-width: 700px;
 
-  border-radius: 8px;
+      background-color: #ffffff;
 
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 50px auto;
 
-}
+      padding: 30px;
 
-h1, h2 {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 
-  color: #333;
+      border-radius: 15px;
 
-}
+    }
 
-p {
+    .header {
 
-  font-size: 16px;
+      text-align: center;
 
-  line-height: 1.6;
+      background-color: #4a47a3;
 
-  color: #555;
+      padding: 20px;
 
-}
+      color: white;
 
-a {
+      border-radius: 10px 10px 0 0;
 
-  color: #007BFF;
+    }
 
-  text-decoration: none;
+    /* ... and more styles ... */
 
-}
+  </style>
 
-a:hover {
-
-  text-decoration: underline;
-
-}
-
-img {
-
-  max-width: 100%;
-
-  border-radius: 5px;
-
-}
-
-```
-
-To use it, link it in your HTML like this:
-
-```html
-
-<link rel="stylesheet" href="style.css">
-
-```
-
-Want styles for buttons, cards, forms, or navigation too?
+</head>
